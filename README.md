@@ -19,6 +19,11 @@ Our Job is going to be be take this startup from Zero to Hero. We'll be required
 6. Provide Visibility into the health of the Infrastructure and Applications
 7. This app is a money maker. Let's make sure it can handle errors
 
+## DevOps/SRE Review
+
+2020-05-09
+
+
 
 ## Distributed Systems
 
@@ -51,4 +56,18 @@ Distributed systems generally fall into one of four different basic architecture
 2. **Three-Tier** - Information about the client is stored in a middle tier rather than on the client to simplify application deployment. This architecture model is most common for web applications.
 3. **n-Tier** - Generally used when an application or server needs to forward requests to additional enterprise services on the network
 4. **Peer-to-Peer** - There are no additional machines used to provide services or manage resources.  Responsibilities are uniformly distributed among machines in the system, know as peers, which can serve as either client or server.
+
+### AWS Setup at this point
+
+Instances are based on RHEL.
+
+* nginx instance for reverse proxy
+* gatsby/nginx instance for site host
+* fulcrum instance
+* rocket-chat instance
+* bastion host instance
+* vpc with 1 public 1 private subnet
+* igw pointed to route table
+* sg's with open ports for public subnet
+
 

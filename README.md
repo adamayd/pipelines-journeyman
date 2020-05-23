@@ -19,6 +19,8 @@ Our Job is going to be be take this startup from Zero to Hero. We'll be required
 6. Provide Visibility into the health of the Infrastructure and Applications
 7. This app is a money maker. Let's make sure it can handle errors
 
+Visit the [Mastermnd Academy](https://academy.mastermnd.io/journeys/pipelines/) website for more information
+
 ## DevOps/SRE Review
 
 2020-05-09
